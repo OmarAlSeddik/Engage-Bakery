@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: "Alegreya", serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.side-buttons {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  z-index: 100;
+  box-shadow: 0 0 8px 1px #979797;
+}
+
+.icon-container {
+  padding: 7px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  color: dodgerblue;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo {
+  width: 150px;
+  float: left;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.nav {
+  float: right;
+}
+
+.nav-link {
+  float: left;
+  padding: 30px 15px;
+}
+
+.nav-link:first-child {
+  border-top: solid 2px #8f7854;
+}
+
+.clear {
+  clear: both;
+}
+
+.hero {
+  background-image: url(./images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  color: white;
+  position: relative;
+}
+
+.hero-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+
+.hero-span {
+  margin-bottom: 40px;
+  display: block;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 70px;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.learn-more {
+  background-color: #8f7854;
+  margin-right: 10px;
+}
+
+.contact-us {
+  background-color: #0000;
+  border: solid 2px white;
+}
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-image {
+  width: 95%;
+}
+
+.section-image-container {
+  display: inline-block;
+  width: 49%;
+  padding: 15px 20px 0;
+  text-align: center;
+}
+
+.section-content {
+  display: inline-block;
+  padding: 15px 20px 0;
+  text-align: center;
+  margin-top: 50px;
+  width: 49%;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+  color: #303030;
+}
+
+.section-paragraph {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.section-list {
+  text-align: left;
+}
+
+.list-item {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.list-icon {
+  color: #8f7854;
+  border: 1px solid #929292;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.list-icon2 {
+  background-color: #8f7854;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.section2 {
+  background-color: #f8f8f8;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  width: 30.5%;
+  padding: 5px 30px;
+}
+
+.box-heading {
+  margin: 10px 0;
+}
+
+.box-paragraph {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.section5 {
+  background-color: #403d38;
+}
+
+.column {
+  padding: 7px;
+  width: 25%;
+  float: left;
+  color: #969696;
+  text-align: left;
+}
+
+.column-heading {
+  font-size: 20px;
+  margin: 10px 0 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.column-paragraph {
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.column-item {
+  font-size: 23px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #303030;
+}
+
+.last-column {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.last-column:hover {
+  color: white;
+}
+
+.column-icon {
+  padding: 5px;
+}
+
+.footer {
+  background-color: #353330;
+  color: #969696;
+  text-align: center;
+}
+
+.logo-container {
+  width: 20%;
+  margin: 0 auto;
+  padding: 50px 0 20px;
+}
+
+.social-container {
+  padding: 20px 0 50px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.footer-icon {
+  background: #484540;
+  color: #8c8a86;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+  float: left;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.footer-icon:hover {
+  color: white;
+}
+
+.f-icon:hover {
+  background-color: #4267b2;
+}
+
+.g-icon:hover {
+  background-color: #db4437;
+}
+
+.i-icon:hover {
+  background-color: #0e76a8;
+}
+
+.t-icon:hover {
+  background-color: #1da1f2;
+}
